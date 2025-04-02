@@ -19,6 +19,6 @@ async def start(_, message):
     join = await subscribe(_, message)
     if join == 1:
         return
-    await message.reply_photo(photo="https://t.me/myserver23/89",
+    await message.reply_photo(photo="https://t.me/myserver23/165",
                               caption=script.START_TXT.format(message.from_user.mention), 
                               reply_markup=buttons)
