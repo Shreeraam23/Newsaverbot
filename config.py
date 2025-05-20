@@ -11,4 +11,4 @@ MONGO_DB = getenv("MONGO_DB", "mongodb+srv://koxiher824:uhWjdKAzmfAHcagy@cluster
 LOG_GROUP = getenv("LOG_GROUP", "-1002286606634")
 CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002314245462"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
-PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
+PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "5000"))
