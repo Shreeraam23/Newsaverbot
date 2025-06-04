@@ -56,7 +56,7 @@ async def single_link(_, message):
         if data and data.get("session"):
             session = data.get("session")
             try:
-                device = 'Vivo Y20'
+                device = 'pyrogram'
                 session_name = await generate_random_name()
                 userbot = Client(session_name, api_id=API_ID, api_hash=API_HASH, device_model=device, session_string=session)
                 await userbot.start()                
@@ -187,7 +187,7 @@ async def batch_link(_, message):
         data = await db.get_data(user_id)
         if data and data.get("session"):
             session = data.get("session")
-            device = 'Vivo Y20'
+            device = 'pyrogram'
             session_name = await generate_random_name()
             userbot = Client(
                 session_name,
