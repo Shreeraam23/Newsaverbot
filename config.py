@@ -5,9 +5,9 @@ from os import getenv
 
 API_ID = int(getenv("API_ID", "20373203"))
 API_HASH = getenv("API_HASH", "8962717c7c708e210f66ea658db58d85")
-BOT_TOKEN = getenv("BOT_TOKEN", "7906843564:AAE6cCQmj9zHaeSv4cP0pgq5V4ESaQY3xz0")
+BOT_TOKEN = getenv("BOT_TOKEN", "8052302508:AAGSn4Fi89ARjjtocQ15150EB9K_KQxWxa8")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "7968732891").split()))
-MONGO_DB = getenv("MONGO_DB", "mongodb+srv://koxiher824:uhWjdKAzmfAHcagy@cluster0.lg66r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB = getenv("MONGO_DB", "mongodb+srv://wikeke7922:VMoBcxdkgJwjeCaK@cluster0.sexvt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 LOG_GROUP = getenv("LOG_GROUP", "-1002596328286")
 CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002413032052"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
